@@ -1,0 +1,61 @@
+
+body {
+  padding: 0;
+  margin:0;
+  background-color: rgba(83, 137, 81, 0.86);
+    
+}
+p{
+    font-size:24px;
+}
+#space{
+    font-size:5px;
+}
+#txt{
+    border:none ;
+    border-bottom:0.5px solid black;
+    width:100%;
+    height:40px;
+    font-size:30px;
+    text-align:center ;
+    outline:none;
+    color:green;
+    background-color: transparent;
+}
+#txt::placeholder{
+    color:green;
+    font-size:25px;
+}
+#clear, #sub{
+    width:49%;
+    height:36px;
+    background-color:green;
+    color:white;
+    border-radius:20px;
+    border-color:darkgreen;
+    outline:none;
+}
+a{
+    text-decoration:none;
+   
+    font-weight:bolder ;
+   
+    margin-top:3px;
+}
+.insta{
+    border-top:3px solid cyan;
+    margin-top:10px;
+    padding-top:5px;
+    text-align:center ;
+}
+a#a{
+  padding-left: 0;
+  margin-left: 0;
+  text-decoration: none;
+  color: floralwhite;
+  
+}
+form::action{
+   height: 100px;
+   width: 100px;
+}
